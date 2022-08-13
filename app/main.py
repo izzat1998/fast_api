@@ -23,4 +23,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def create_item():
-    return {"message": "Hello"}
+    return {"message": "izzat"}
