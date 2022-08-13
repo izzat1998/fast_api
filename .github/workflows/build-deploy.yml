@@ -60,6 +60,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: izzattilla706/fastapi:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/fastapi:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
