@@ -46,10 +46,10 @@ jobs:
           pip install pytest
           pytest
       - name: push changes to production
-  deploy:
-    runs-on: ubuntu-latest
-    needs: [ build ]
-
-    steps:
-      - name: deploying stuff
-        run: echo "going to deploy some stuff"
+#  deploy:
+#    runs-on: ubuntu-latest
+#    needs: [ build ]
+#
+#    steps:
+#      - name: deploying stuff
+#        run: echo "going to deploy some stuff"
