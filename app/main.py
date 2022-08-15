@@ -23,4 +23,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def create_item():
-    return {"message": "Successfully werff f from CI/CD pipeline"}
+    return {"message": "Successfully Changed Shakhzod CI/CD pipeline"}
